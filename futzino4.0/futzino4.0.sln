@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "futzino4.0", "futzino4.0\futzino4.0.csproj", "{37192D90-ED9F-4C34-9E6F-83EC2F99D2DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37192D90-ED9F-4C34-9E6F-83EC2F99D2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37192D90-ED9F-4C34-9E6F-83EC2F99D2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37192D90-ED9F-4C34-9E6F-83EC2F99D2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37192D90-ED9F-4C34-9E6F-83EC2F99D2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6BAB248-9F72-448E-8C19-DA21487EBFDF}
+	EndGlobalSection
+EndGlobal

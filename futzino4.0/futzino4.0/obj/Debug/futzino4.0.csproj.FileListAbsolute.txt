@@ -1,0 +1,8 @@
+D:\projeto jogo\futzino4.0\futzino4.0\bin\Debug\futzino4.0.exe.config
+D:\projeto jogo\futzino4.0\futzino4.0\bin\Debug\futzino4.0.exe
+D:\projeto jogo\futzino4.0\futzino4.0\bin\Debug\futzino4.0.pdb
+D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.AssemblyReference.cache
+D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.SuggestedBindingRedirects.cache
+D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.CoreCompileInputs.cache
+D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.exe
+D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.pdb
