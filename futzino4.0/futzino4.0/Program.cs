@@ -21,7 +21,7 @@ namespace futzino
     class GolCarta : ICarta
     {
         public int ObterPontuacao()
-        {
+        {              
             return 3;
         }
 
@@ -110,7 +110,7 @@ namespace futzino
         private Jogador jogador2;
         private bool jogador1Vez;
 
-        public void Iniciar()
+       public void Multiplayer()
         {
             Console.WriteLine("Bem-vindo ao futzino!");
 
@@ -138,16 +138,70 @@ namespace futzino
                     Console.WriteLine($"Vez de {jogador2.Nome}");
                     Jogar(jogador2, jogador1);
                 }
-
                 if (jogador1.Energias == 0 && jogador2.Energias == 0)
                 {
                     FinalizarPartida();
                     break;
                 }
 
+            }
+        }
+
+        public void SinglePlayer()
+        {
+            Console.WriteLine("Bem-vindo ao futzino!");
+
+            Console.WriteLine("Digite o nome do Jogador 1:");
+            string nomeJogador1 = Console.ReadLine();
+            jogador1 = new Jogador { Nome = nomeJogador1, Energias = 10 };
+
+            Console.WriteLine("Computador:");
+            string nomeJogador2 = "Futzino";
+            jogador2 = new Jogador { Nome = nomeJogador2, Energias = 10 };
+
+            jogador1Vez = SortearJogadorInicial();
+
+            Console.WriteLine("Começando o jogo...");
+
+            while (true)
+            {
+                if (jogador1Vez)
+                {
+                    Console.WriteLine($"Vez de {jogador1.Nome}");
+                    Jogar(jogador1, jogador2);
+                }
+                else
+                {
+                    Console.WriteLine($"Vez de {jogador2.Nome}");
+                    Jogar(jogador2, jogador1);
+                }
+                if (jogador1.Energias == 0 && jogador2.Energias == 0)
+                {
+                    FinalizarPartida();
+                    break;
+                }
+
+            }
+        }
+
+        public void Iniciar()
+        {
+            int Jogo;
+            Console.WriteLine("1 - MultiPlayer");
+            Console.WriteLine("2 - SinglePlayer");
+            Jogo = int.Parse(Console.ReadLine());
+            if (Jogo == 1)
+            {
+                Multiplayer();               
+            }
+            else if (Jogo == 2)
+            {
+                SinglePlayer();
+            }
+            while (true)
+            {
                 Console.WriteLine("Digite -1 para sair ou 0 para nova partida:");
                 string opcao = Console.ReadLine();
-
                 if (opcao == "-1")
                     break;
                 else if (opcao == "0")
@@ -163,6 +217,7 @@ namespace futzino
 
         private void Jogar(Jogador jogador, Jogador adversario)
         {
+
             Console.WriteLine($"Energias de {jogador.Nome}: {jogador.Energias}");
             Console.WriteLine($"Gols de {jogador.Nome}: {jogador.Gols}");
             Console.WriteLine($"Pontuação de {jogador.Nome}: {jogador.Pontuacao}");
@@ -175,11 +230,9 @@ namespace futzino
             Console.WriteLine("Cartas abertas:");
             foreach (var carta in cartas)
             {
-                Console.WriteLine(carta.ObterNome());
+                Console.WriteLine(carta.ObterNome());         
             }
-
-            int pontuacaoRodada = CalcularPontuacaoRodada(cartas);
-
+            int pontuacaoRodada = CalcularPontuacaoRodada(cartas);       
             if (pontuacaoRodada == 0)
             {
                 Console.WriteLine("Nenhum gol marcado nessa rodada.");
@@ -223,7 +276,10 @@ namespace futzino
 
             return cartas;
         }
+        private void Cartas3()
+        {
 
+        }
         private int CalcularPontuacaoRodada(List<ICarta> cartas)
         {
             int pontuacao = 0;

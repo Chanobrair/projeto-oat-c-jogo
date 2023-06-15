@@ -6,3 +6,11 @@ D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.SuggestedBindi
 D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.CoreCompileInputs.cache
 D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.exe
 D:\projeto jogo\futzino4.0\futzino4.0\obj\Debug\futzino4.0.pdb
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\bin\Debug\futzino4.0.exe.config
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\bin\Debug\futzino4.0.exe
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\bin\Debug\futzino4.0.pdb
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.AssemblyReference.cache
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\obj\Debug\futzino4.0.csproj.CoreCompileInputs.cache
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\obj\Debug\futzino4.0.exe
+C:\Users\Nivaldo\OneDrive\Área de Trabalho\projeto-oat-c-jogo-main\futzino4.0\futzino4.0\obj\Debug\futzino4.0.pdb
