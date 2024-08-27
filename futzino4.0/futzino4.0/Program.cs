@@ -329,7 +329,6 @@ namespace futzino
                 }
             }
         }
-
         private void ResetarPartida()
         {
             jogador1 = new Jogador { Nome = jogador1.Nome, Energias = 10 };
